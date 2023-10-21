@@ -1,11 +1,14 @@
 # Wake - Lock Service App
 
-An Android application designed to maintain a persistent service with a wake lock, ensuring that specific tasks run without being interrupted by the system putting the device to sleep.
+An Android application designed to maintain a persistent service with a wake lock, ensuring that
+specific tasks run without being interrupted by the system putting the device to sleep.
 
 ## Features
 
-- **Wake Lock Service**: Ensures that the service keeps running without letting the device go into deep sleep.
-- **Foreground Notification**: Provides a visual indication that the service is running, complete with a cancel action to stop it.
+- **Wake Lock Service**: Ensures that the service keeps running without letting the device go into
+  deep sleep.
+- **Foreground Notification**: Provides a visual indication that the service is running, complete
+  with a cancel action to stop it.
 
 ## Table of Contents
 
@@ -26,12 +29,15 @@ An Android application designed to maintain a persistent service with a wake loc
 
 2. **Open in Android Studio**:
 
-   Navigate to the directory and open the project in Android Studio. Build and run the application on an emulator or a real device.
+   Navigate to the directory and open the project in Android Studio. Build and run the application
+   on an emulator or a real device.
 
 ## Usage
 
-1. **Start the Service**: On the main screen, there's a button to start the service. Once started, the wake lock will be acquired.
-2. **Notification**: Once the service starts, a sticky notification will appear in the notification drawer, indicating that the service is running.
+1. **Start the Service**: On the main screen, there's a button to start the service. Once started,
+   the wake lock will be acquired.
+2. **Notification**: Once the service starts, a sticky notification will appear in the notification
+   drawer, indicating that the service is running.
 3. **Stop the Service**: To stop the service, you can press the "Cancel" button on the notification.
 
 ## Dependencies
@@ -42,12 +48,14 @@ An Android application designed to maintain a persistent service with a wake loc
 ## FAQs
 
 - **What is a wake lock?**
-  
-  A wake lock is a mechanism in Android that lets you signal the system to keep the device's screen and/or CPU on.
+
+  A wake lock is a mechanism in Android that lets you signal the system to keep the device's screen
+  and/or CPU on.
 
 - **Why use this app?**
-  
-  This app is useful for cases where you need to ensure a service/task runs uninterrupted by the device's sleep cycles.
+
+  This app is useful for cases where you need to ensure a service/task runs uninterrupted by the
+  device's sleep cycles.
 
 ## Contributing
 
@@ -59,8 +67,7 @@ An Android application designed to maintain a persistent service with a wake loc
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU GENERAL Public License. See `LICENSE` for more information.
 
 ---
 
-**Note**: Remember to replace placeholders (like the repository link) with your actual details. Customize the sections as needed to fit the specifics of your application.
