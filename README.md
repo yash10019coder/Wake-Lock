@@ -24,7 +24,7 @@ specific tasks run without being interrupted by the system putting the device to
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/wakelockserviceapp.git
+   git clone https://github.com/yash10019coder/Wake-Lock.git
    ```
 
 2. **Open in Android Studio**:
@@ -34,8 +34,7 @@ specific tasks run without being interrupted by the system putting the device to
 
 ## Usage
 
-1. **Start the Service**: On the main screen, there's a button to start the service. Once started,
-   the wake lock will be acquired.
+1. **Start the Service**: Service will be automatically started as you open the application.
 2. **Notification**: Once the service starts, a sticky notification will appear in the notification
    drawer, indicating that the service is running.
 3. **Stop the Service**: To stop the service, you can press the "Cancel" button on the notification.
